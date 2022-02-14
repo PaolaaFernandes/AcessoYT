@@ -1,0 +1,9 @@
+## YAML Templates
+---
+
+default: -p html -p for_ci #-p é de profile
+bdd: --format pretty
+for_ci: --format progress
+html: --format html --out=results/report.html #os resultados serão salvos no arquivo reports.html criado
+
+
